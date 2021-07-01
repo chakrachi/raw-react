@@ -1,0 +1,21 @@
+.container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 11px;
+      border: 1em;
+      background-color: beige;
+      text-align: left;
+      border-width: 2em;
+      border-style: solid;
+
+    }
+
+.post {
+    font-style: italic;
+    color: darkblue;
+}
+
+.comment {
+    font-style: bold;
+    color: purple;
+}
